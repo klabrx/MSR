@@ -1,0 +1,32 @@
+/* Fixierter Header */
+#result-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  z-index: 1000;
+}
+
+/* Hauptinhalt, um Platz für den fixierten Header zu schaffen */
+#main-content {
+  margin-top: 60px; /* Platz für den fixierten Header */
+}
+
+/* Fixierter Footer */
+#result-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  z-index: 1000;
+}
